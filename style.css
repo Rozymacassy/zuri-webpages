@@ -1,0 +1,296 @@
+@font-face {
+    font-family: Averta;
+    src: url(https://res.cloudinary.com/dafsch2zs/raw/upload/v1596618987/Zuri%20Landing/AvertaDemoPECuttedDemo-Regular_dghpn7.otf);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Averta, sans-serif;
+}
+
+a {
+    color: #E7332B;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #eb5850;
+}
+
+.first-container {
+    height: 800px;
+    background-image: url("./img/img-bg.svg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.beta-content {
+    max-width: 1440px;
+}
+
+.beta-container {
+    max-width: 1240px;
+}
+
+.logo-image {
+    margin: auto;
+    display: flex;
+    padding-top: 69px;
+    margin-bottom: 69px;
+
+}
+
+.logo {
+    margin: auto;
+}
+
+.alpha {
+    padding: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.alpha h2 {
+    font-size: 23px;
+    line-height: 48px;
+    text-align: center;
+    font-weight: 800;
+    color: #514949;
+    margin-bottom: 36px;
+}
+
+.alpha p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
+}
+
+.btn-new {
+    margin-top: 92px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    padding: 11px 28px;
+    border: 1px solid #E7332B;
+}
+
+.btn-red {
+    background-color: #E7332B;
+    color: #fff;
+    margin-right: 24px;
+}
+
+.btn-red:hover {
+    background-color: #fff;
+    color: #E7332B;
+}
+
+.btn-red-border {
+    background-color: #fff;
+    color: #E7332B;
+}
+
+.btn-red-border:hover {
+    background-color: #E7332B;
+    color: #fff;
+}
+
+section.beta {
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.beta-content {
+    padding-top: 0;
+    text-align: center;
+
+}
+
+.beta-content .heading {
+    font-size: 14px;
+    line-height: 24px;
+    color: #E7332B;
+    margin-top: 141px;
+}
+
+.beta-content p.slogan {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #514949;
+    margin-top: 8px;
+    margin-bottom: 64px;
+
+}
+
+.beta-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    text-align: start
+}
+
+
+
+.beta-card {
+    width: 100%;
+    background-color: #FFFAFA;
+    padding: 61px 47px 82px 36px;
+    text-align: justify-all;
+}
+
+.beta-card-last {
+    position: relative;
+    z-index: 1;
+}
+
+.beta-card img {
+    margin-bottom: 48px;
+
+}
+
+.beta-card p {
+    font-size: 12px;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
+}
+
+.beta-card h3 a {
+    font-size: 14px;
+    line-height: 24px;
+    color: #E7332B;
+    opacity: 0.9;
+}
+
+.footers {
+    margin-top: 215px;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 56px;
+    padding: 20px;
+}
+
+.footers h3 {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #514949;
+    text-align: center;
+
+}
+
+.flex-3 p {
+    font-size: 12px;
+    line-height: 20px;
+    color: #E7332B;
+    opacity: 0.9;
+    text-align: center;
+
+}
+
+.contact p,
+.flex-4 p {
+    font-size: 12px;
+    line-height: 20px;
+    color: #514949;
+    opacity: 0.9;
+    text-align: center;
+
+}
+
+
+.contact-icons img {
+    width: 18px;
+    margin-right: 5px;
+}
+
+
+footer hr {
+    opacity: 0.2;
+    border: 0.7px solid #514949;
+}
+
+.copyright p {
+    font-size: 12px;
+    text-align: center;
+    line-height: 24px;
+    font-weight: bold;
+    margin-top: 32px;
+    color: #514949;
+    padding-bottom: 97px;
+}
+
+@media (max-width: 768px) {
+
+    .first-container {
+        height: auto;
+    }
+
+    .row {
+        display: inline;
+        text-align: start;
+    }
+
+    .logo {
+        display: block;
+        padding-top: 50px;
+        margin: auto;
+        margin-bottom: 20px;
+
+    }
+
+    .alpha h2 {
+        font-size: 23px;
+        line-height: 34px;
+        text-align: center;
+    }
+
+    .btn-new {
+        margin-bottom: 50px;
+        display: inline;
+    }
+
+
+    button.btn {
+        display: block;
+        margin: auto;
+        justify-content: center;
+    }
+
+    h3.heading {
+        margin-top: 60px;
+    }
+
+    .footer-flex {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footers-logo {
+        width: 150px;
+        margin-bottom: 15px;
+    }
+
+    .footer-flex h3 {
+        font-size: 24px;
+        margin-top: 20px;
+
+    }
+
+
+}
