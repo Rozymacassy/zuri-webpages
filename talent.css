@@ -1,4 +1,4 @@
-@import url("./font.css");
+@import url("./talent-font.css");
 body{
   margin: 0px !important;
 }
@@ -58,9 +58,6 @@ border-radius: 8px !important;
 padding: 11px !important;
 color: #787878 !important;
 transition: transform ease 300ms !important;
-
-/* Par Text */
-color: #787878 !important;
 
 }
 @media screen and (max-width: 1380px){
